@@ -1,6 +1,6 @@
 # 📊 qRT-PCR Graph Analyzer
 
-An **R-based tool** for analyzing and visualizing **qRT-PCR** data, developed to **automate** the generation of standardized publication-ready plots (Nature style) with integrated statistical testing.  
+An **R-based tool** for analyzing and visualizing **qRT-PCR** data, developed to **automate** the generation of standardized publication-ready plots (*Nature* style) with integrated statistical testing.  
 
 ---
 
@@ -63,11 +63,18 @@ The tool was developed in **R**, providing an interactive workflow that allows:
 
 ---
 
-## 🚀 Workflow
+## 📦 Installation
 
-```mermaid
-flowchart TD
-    A[📂 Import Data] --> B[⚙️ Configure Parameters]
-    B --> C[📊 Run Statistical Tests]
-    C --> D[🖼️ Visualize Plots]
-    D --> E[📤 Export Results]
+To install required R packages, run:
+
+```r
+install.packages(c(
+  "readxl",
+  "tidyverse",
+  "ggplot2",
+  "ggpubr",
+  "multcompView",
+  "multcomp",
+  "ggsignif"
+))
+
