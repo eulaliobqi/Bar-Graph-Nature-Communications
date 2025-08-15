@@ -4,7 +4,15 @@
 # Author: Eulalio Gutemberg
 # Date: 2025
 ############################################################
-
+install.packages(c(
+  "readxl",
+  "tidyverse",
+  "ggplot2",
+  "ggpubr",
+  "multcompView",
+  "multcomp",
+  "ggsignif"
+))
 # ========================
 # 1) Load packages
 # ========================
