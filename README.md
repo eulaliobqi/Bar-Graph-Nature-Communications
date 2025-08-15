@@ -78,3 +78,8 @@ install.packages(c(
   "ggsignif"
 ))
 
+flowchart TD
+    A[📂 Import Data] --> B[⚙️ Configure Parameters]
+    B --> C[📊 Run Statistical Tests]
+    C --> D[🖼️ Visualize Plots]
+    D --> E[📤 Export Results]
