@@ -1,0 +1,11 @@
+## 📚 Libraries Required
+
+The following R libraries are required for the tool to work properly:
+
+- **readxl** → to import Excel files (`.xlsx`, `.xls`)  
+- **tidyverse** → data manipulation and transformation  
+- **ggplot2** → base plotting system  
+- **ggpubr** → publication-ready plots  
+- **multcomp** → multiple comparisons (Tukey, Dunnett, etc.)  
+- **multcompView** → compact letter display for Tukey results  
+- **ggsignif** → significance annotations on plots  
