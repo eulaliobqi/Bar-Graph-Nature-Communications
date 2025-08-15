@@ -78,6 +78,7 @@ install.packages(c(
   "ggsignif"
 ))
 
+```mermaid
 flowchart TD
     A[📂 Import Data] --> B[⚙️ Configure Parameters]
     B --> C[📊 Run Statistical Tests]
